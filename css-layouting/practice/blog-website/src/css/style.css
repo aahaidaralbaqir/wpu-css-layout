@@ -5,7 +5,7 @@ body {
   color: #333;
 }
 .container {
-  width: 800px;
+  width: 900px;
   background-color: white;
   margin: auto;
 }
@@ -35,31 +35,66 @@ body {
   border-bottom: 5px solid lightskyblue;
   background-image: url('../images/hero/programming-by-chries-riead.jpg')
 }
-.content {
+.main {
+  width: 600px;
   padding: 20px;
+  box-sizing: border-box;
+  float: left;
 }
-.content h2 {
+.main h2 {
   font-size: 32px;
   font-weight: bold;
 }
-.content .creator {
+.main .creator {
   font-size: 11px;
   margin-top: -5px;
 }
-.content .creator a {
+.main .creator a {
   color: salmon;
   text-decoration: none;
   font-weight: bold;
 }
-.content p {
+.main p {
   margin-bottom: 20px;
+}
+.sidebar {
+  padding: 20px;
+  box-sizing: border-box;
+  width: 300px;
+  float: right;
+  height: 100vh;
+}
+.sidebar h2 {
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: bold;
+}
+.sidebar img {
+  float: left;
+  margin: 0px 10px 10px 10px;
+}
+.sidebar p {
+  margin-left:10px;
+  font-size: 14px;
+  line-height: 20px;
 }
 .footer {
   height: 50px;
   text-align: center;
   background-color: salmon;
 }
+
 .footer p {
   color: white;
   line-height: 50px;
+}
+/* clear fix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
 }
