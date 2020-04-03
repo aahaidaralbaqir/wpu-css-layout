@@ -1,0 +1,12 @@
+/* cara mereset element html */
+/*
+1. menulis tagnya secara langsung
+2. secara universal menggunakan tag bintang
+3. menggunakan teknik meyer web
+*/
+
+div {
+  width: 400px;
+  height:  400px;
+  background-color: black;
+}
