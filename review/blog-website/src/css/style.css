@@ -1,0 +1,55 @@
+body {
+  font: 16px/28px arial, sans-serif;
+  background-color: #333;
+}
+.container {
+  background-color: white;
+  width: 60%;
+  margin: auto;
+  height: auto;
+}
+.header{
+  padding: 20px;
+}
+.header .title {
+  font-size: 30px;
+  color: #333;
+}
+.header ul li {
+  margin-top: 20px;
+  display: inline-block;
+  margin-right: 20px;
+}
+.header ul li a{
+  text-decoration: none;
+  color: #666;
+}
+.hero {
+  height: 300px;
+  border-top: 5px solid salmon;
+  border-bottom: 5px solid lightskyblue;
+  background-image: url(/review/blog-website/src/images/programming-by-chries-riead.jpg);
+  background-size: cover;
+}
+.content {
+  padding: 20px;
+}
+.content .creator{
+  font-size: 16px;
+}
+.content p a {
+  color : salmon;
+  text-decoration: none;
+}
+.content p {
+  font-size: 14px;
+  margin-top: 20px;
+}
+.footer {
+  background-color: salmon;
+  text-align: center;
+}
+.footer p {
+  color: white;
+  line-height: 50px;
+}
