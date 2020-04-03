@@ -1,6 +1,6 @@
  ## Box Model
 1.  Semua element adalah kotak
-2.  Css box model mendefinisikan kota yang dihasilkan oleh sebuah
+2.  Css box model mendefinisikan kotak yang dihasilkan oleh sebuah
     element, lalu menampilkannya sessua dengan format visualnya
 
 ## Box model terbagi 3
