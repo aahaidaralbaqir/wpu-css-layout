@@ -1,4 +1,4 @@
-## Box Model Padding
+## Box model padding border
 
 ### Note
 - padding
@@ -11,3 +11,5 @@
     - Style -> solid, dotted, dashed, double
     - Warna -> semua warna
   2. Merubah ukuran parent nya
+- Untuk mengatasi perubahan ukuran parent akibat
+  border atau padding Menggunakan box-sizing: border-box
