@@ -1,0 +1,246 @@
+body {
+  font:  17px/28px var(--livic-light);
+  color : #1a1a1a;
+}
+/* utility */
+  /* end header */
+  .tx-none {
+    text-decoration: none;
+  }
+  .active {
+    border-top: 5px solid var(--primary-color);
+    color: var(--primary-color) !important;
+  }
+/* utility */
+/* start container */
+.container {
+}
+/* end container */
+/* start header */
+.header {
+  padding: 0px 60px 0px 60px;
+  height: 130px;
+  border-bottom: 1px solid #e2e2e2 ;
+}
+.header a#logo {
+  color: var(--primary-color);
+  font-size: 32px;
+  font-weight: bold;
+}
+.header a#logo span {
+  color: #666;
+}
+/* start navbar */
+.navbar-with-logo {
+  float: left;
+  width: 50%;
+}
+.navbar-with-logo ul {
+  display: inline-block;
+  margin-left: 90px;
+}
+.navbar-with-logo ul li {
+  margin-right: 30px;
+  display: inline-block;
+  line-height: 120px;
+}
+
+.navbar-with-logo ul li a{
+  text-decoration: none;
+  font-family: var(--livic-light);
+  font-size: 18px;
+  color:#1a1a1a;
+  font-style: normal;
+  font-weight: bold;
+  display: block;
+  padding: 0px 10px 0px 10px;
+}
+/* end navbar */
+
+/* start contact */
+.navbar-with-contact-info {
+  width: 50%;
+  float: right;
+ text-align: right;
+}
+.navbar-with-contact-info ul {
+  display: inline-block;
+}
+.navbar-with-contact-info ul li {
+  display: inline-block;
+  line-height: 120px;
+  margin-left: 20px;
+}
+.navbar-with-contact-info a {
+}
+.navbar-with-contact-info ul li a {
+  text-decoration: none;
+  color : #cfcfcf;
+}
+.navbar-with-contact-info .phone-number {
+  font-weight:900;
+  color: var(--primary-color);
+  font-size: 20px;
+  margin-right: 10px;
+}
+.navbar-with-contact-info .phone-number strong {
+  color: black;
+}
+/* end contact */
+/* start banner */
+.banner-hero {
+  display: flex;
+  padding: 0px 60px 0px 60px;
+  flex: 1;
+  position: relative;
+  height: 100vh;
+  padding-bottom: 50px;
+}
+.banner-hero::before{
+  content: url('../img/support/2.png');
+  position: absolute;
+  bottom: -2%;
+  left:0%;
+}
+.banner-hero::after{
+  content: url('../img/support/1.png');
+  position: absolute;
+  top: 10%;
+  right:0%;
+}
+.banner-hero-item {
+  position: relative;
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.banner-hero-item h1 {
+  font-size: 120px;
+  line-height: 120px;
+  z-index: 999;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+.banner-hero-item h1 strong{
+  color:  #ff1a1a;
+  font-weight: bold;
+}
+.banner-hero-right {
+  width: 50%;
+  float: right;
+}
+/* end container */
+/* about */
+.about {
+  padding: 60px;
+  position: relative;
+  background-color: var(--primary-color)
+}
+.about h1 {
+  box-sizing: border-box;
+  font-size: 36px;
+  z-index: 999;
+  margin-top: 10px;
+  font-weight: bold;
+  color : white;
+}
+.about-description {
+  margin-top: 50px;
+  width: 40%;
+}
+.about-description p {
+  color: whitesmoke;
+  margin-top : 30px;
+}
+/* end about */
+/* start portfolio */
+.portfolio {
+  padding: 60px;
+  box-sizing: border-box;
+}
+.portfolio h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+.portfolio-area {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+.portfolio-item {
+  width: 300px;
+  height: 380px;
+  background-color: white;
+  margin-bottom: 50px;
+}
+.portfolio-item .portfolio-item-top {
+  height: 40%;
+  box-sizing: border-box;
+  width: 100%;
+}
+.portfolio-item .portfolio-item-top img {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+.portfolio-item .portfolio-item-bottom {
+  height: 60%;
+  width: 100%;
+  box-sizing: border-box;
+  padding:30px;
+}
+.portfolio-item .portfolio-item-bottom h2 {
+  font-weight: bold
+}
+.portfolio-item .portfolio-item-bottom ul {
+  margin-top: 20px;
+}
+.portfolio-item .portfolio-item-bottom ul li {
+  display: inline-block;
+  padding:0px 4px 0px 4px;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  background-color: var(--primary-color) ;
+}
+/* end portfolio */
+/* start skils */
+.skils {
+  padding: 60px;
+  background-color: var(--primary-color);
+}
+
+.skils h1 {
+  box-sizing: border-box;
+  font-size: 36px;
+  z-index: 999;
+  margin-top: 10px;
+  font-weight: bold;
+  color : white;
+}
+.skils ul {
+  margin-top: 30px
+}
+.skils ul li{
+  margin-bottom: 20px;
+  word-spacing: 5px;
+  font-size: 24px;
+  color: whitesmoke;
+  font-weight: bold;
+}
+/* end skilis */
+/* start footer */
+footer {
+  text-align: center;
+  padding :60px;
+}
+footer h1 {
+  color: var(--primary-color);
+  font-size: 32px;
+}
+/* end footer */

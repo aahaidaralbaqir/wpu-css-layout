@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@300&display=swap');
+:root {
+  --pt-sans-regular : "Pt sans Regular", Sans-serif;
+  --pt-sans-italic : "Pt sans Italic", Sans-serif;
+  --pt-sans-bold : "Pt sans Bold", Sans-serif;
+  --pt-sans-bold-italic : "Pt sans Bold Italic", Sans-serif;
+  --livic-light : 'Livvic', Sans-serif;
+  --primary-color : #ff5252;
+}
